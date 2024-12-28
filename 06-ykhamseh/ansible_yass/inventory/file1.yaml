@@ -1,0 +1,13 @@
+---
+- name: install nginx on servers
+  hosts: all
+  become: yes
+  tasks: 
+    - name: update apt cache
+      apt:
+        update_cache: yes
+
+    - name: install nginx on all servers
+      apt:
+        name: nginx
+        state: latest 
