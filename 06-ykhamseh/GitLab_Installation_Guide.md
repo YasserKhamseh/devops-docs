@@ -32,11 +32,11 @@ curl -sS https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/scrip
 **Step 3: Download and Install GitLab from package file**
 
 - Visit the following URL to download the GitLab package:
-   - [GitLab Packages](https://packages.gitlab.com/gitlab/gitlab-ee)
-- Download the package `gitlab-ee_17.4.3-ee.0_amd64.deb` to your local machine.
+   - [GitLab Packages](https://packages.gitlab.com/gitlab/gitlab-ce)
+- Download the package `gitlab-ee_17.3.6-ce.0_amd64.deb` to your local machine.
 
 ```
-sudo dpkg -i gitlab-ee_17.4.3-ee.0_amd64.deb
+sudo dpkg -i gitlab-ee_17.3.6-ce.0_amd64.deb
 ```
 
 **Step 4: Edit the GitLab configuration file**
